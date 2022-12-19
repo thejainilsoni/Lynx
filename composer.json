@@ -1,0 +1,24 @@
+{
+    "name": "jainilsoni1706/lynx",
+    "description": "PHP Framework",
+    "type": "lib",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lynx\\System\\": "system/",
+            "App\\": "app/"
+        },
+        "files": [
+            "system/Exception/ApplicationException.php",
+            "system/Debug/dd.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "jainilsoni1706",
+            "email": "jainilsoni1706@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
